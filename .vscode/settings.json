@@ -1,0 +1,11 @@
+{
+    "emmet.preferences": {
+                    
+    },
+    // The below link show how to install emmet for jsx react files
+    // https://eshwaren.medium.com/enable-emmet-support-for-jsx-in-visual-studio-code-react-f1f5dfe8809c
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
+}
+

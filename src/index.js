@@ -1,17 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// render(parameter 1, parameter 2)
+// parameter 1: What to display
+// parameter 2: Where to display (in this case the div with id root. This can be found in index.html in public directory)
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Component file
+import TodoContainer from "./components/TodoContainer"
+ReactDOM.render(<React.StrictMode><TodoContainer /></React.StrictMode>, document.getElementById("root"))
