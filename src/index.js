@@ -7,4 +7,6 @@ import ReactDOM from "react-dom"
 
 // Component file
 import TodoContainer from "./components/TodoContainer"
+// wrapping the component with React.StrictMode
 ReactDOM.render(<React.StrictMode><TodoContainer /></React.StrictMode>, document.getElementById("root"))
+
